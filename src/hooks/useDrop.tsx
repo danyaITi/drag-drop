@@ -27,7 +27,7 @@ export const useDrop = (el:string) => {
         }
     }
 
-    const dropedElement = () => {
+    const dropedElement = ():JSX.Element => {
         if(el === 'image'){
             return  <div className='item'>
                 <input

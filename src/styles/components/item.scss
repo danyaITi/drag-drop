@@ -1,0 +1,30 @@
+.item {
+    text-align: center;
+
+    .hidden{
+        opacity: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+    span{
+        margin-top: 10px;
+        display: block;
+        img{
+            cursor: pointer;
+        }
+    }
+    
+    &:not(:last-child){
+        margin-bottom: 30px;
+    }
+}
+
+.text{
+    display: block;
+    margin: 0 auto;
+
+    &:not(:last-child){
+        margin-bottom: 20px;
+    }
+}

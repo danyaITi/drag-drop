@@ -1,0 +1,50 @@
+.app{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    h5{
+      text-align: center;
+    }
+  }
+  
+  .sidebar{
+    margin-right: 30px;
+    width: 20vw;
+    height: 60vh;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+    .elements{
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      span{
+        cursor:grab;
+        margin-bottom: 30px;
+        display: block;
+        font-size: 20px;
+      }
+
+      img{
+        cursor:grab;
+      }
+    }
+    
+  }
+  
+  .workarea{
+    width: 40vw;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+    .card{
+      overflow:auto;
+      min-height: 58vh;
+      max-height: 58vh;
+    }
+  }
